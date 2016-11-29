@@ -34,11 +34,11 @@ Public Class frmCustomer
         Try
             ' Fetch the latest ID from the database
             con.Open()
-            cmd = New SqlCommand("SELECT TOP 1 ID FROM Customer ORDER BY ID DESC", con)
+            cmd = New SqlCommand("SELECT TOP 1 id FROM obra ORDER BY id DESC", con)
             rdr = cmd.ExecuteReader(CommandBehavior.CloseConnection)
             If rdr.HasRows Then
                 rdr.Read()
-                value = rdr.Item("ID")
+                value = rdr.Item("id")
             End If
             rdr.Close()
             ' Increase the ID by 1
@@ -72,7 +72,7 @@ Public Class frmCustomer
 
     Private Sub btnSave_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnSave.Click
         If Len(Trim(txtCustomerName.Text)) = 0 Then
-            MessageBox.Show("Please enter Customer name", "", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+            MessageBox.Show("Por favor, ingrese un nombre de obra", "", MessageBoxButtons.OK, MessageBoxIcon.Warning)
             txtCustomerName.Focus()
             Exit Sub
         End If
@@ -360,5 +360,14 @@ Public Class frmCustomer
         If (e.DesiredType Is GetType(String)) Then
             e.Value = e.Value.ToString.Trim
         End If
+    End Sub
+
+    Public Sub New()
+
+        ' This call is required by the designer.
+        InitializeComponent()
+
+        ' Add any initialization after the InitializeComponent() call.
+
     End Sub
 End Class

@@ -43,46 +43,6 @@ Public Class frmMainMenu
         lblTime.Text = TimeOfDay.ToString("h:mm:ss tt")
     End Sub
 
-    Private Sub CalculatorToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles CalculatorToolStripMenuItem.Click
-        Try
-            System.Diagnostics.Process.Start("Calc.exe")
-        Catch ex As Exception
-            MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
-        End Try
-    End Sub
-
-    Private Sub NotepadToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles NotepadToolStripMenuItem.Click
-        Try
-            System.Diagnostics.Process.Start("Notepad.exe")
-        Catch ex As Exception
-            MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
-        End Try
-    End Sub
-
-    Private Sub WordpadToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles WordpadToolStripMenuItem.Click
-        Try
-            System.Diagnostics.Process.Start("wordpad.exe")
-        Catch ex As Exception
-            MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
-        End Try
-    End Sub
-
-    Private Sub MSWordToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles MSWordToolStripMenuItem.Click
-        Try
-            System.Diagnostics.Process.Start("winword.exe")
-        Catch ex As Exception
-            MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
-        End Try
-    End Sub
-
-    Private Sub TaskManagerToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles TaskManagerToolStripMenuItem.Click
-        Try
-            System.Diagnostics.Process.Start("TaskMgr.exe")
-        Catch ex As Exception
-            MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
-        End Try
-    End Sub
-
     Private Sub SystemInfoToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles SystemInfoToolStripMenuItem.Click
 
     End Sub
@@ -130,31 +90,9 @@ Public Class frmMainMenu
         frmSupplier.ShowDialog()
     End Sub
 
-    Private Sub CustomerToolStripMenuItem1_Click(sender As System.Object, e As System.EventArgs)
-
-    End Sub
-
-    Private Sub SupplierToolStripMenuItem1_Click(sender As System.Object, e As System.EventArgs)
-
-    End Sub
-
-
-    Private Sub StockToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs)
-
-    End Sub
-
-
-    Sub Reset()
-
-    End Sub
-    
     Private Sub frmMainMenu_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
 
         Me.SetImg()
-        
-    End Sub
-
-    Private Sub StockToolStripMenuItem1_Click(sender As System.Object, e As System.EventArgs)
 
     End Sub
 
@@ -163,18 +101,6 @@ Public Class frmMainMenu
         frmServices.lblUserType.Text = lblUserType.Text
         frmServices.Reset()
         frmServices.ShowDialog()
-    End Sub
-
-    Private Sub btnExportExcel_Click(sender As System.Object, e As System.EventArgs)
-
-    End Sub
-
-    Private Sub txtProductName_TextChanged(sender As System.Object, e As System.EventArgs)
-
-    End Sub
-
-    Private Sub btnReset_Click(sender As System.Object, e As System.EventArgs)
-
     End Sub
 
     Private Sub PurchaseReportToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles PurchaseReportToolStripMenuItem.Click
@@ -186,8 +112,6 @@ Public Class frmMainMenu
         frmVoucherReport.Reset()
         frmVoucherReport.ShowDialog()
     End Sub
-
-
 
     Private Sub SalesmanLedgerToolStripMenuItem1_Click(sender As System.Object, e As System.EventArgs) Handles SalesmanLedgerToolStripMenuItem1.Click
         frmSalesmanLedger.Reset()
@@ -248,4 +172,5 @@ Public Class frmMainMenu
             MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
         End Try
     End Sub
+
 End Class

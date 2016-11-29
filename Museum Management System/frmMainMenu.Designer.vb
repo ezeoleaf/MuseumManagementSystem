@@ -38,12 +38,9 @@ Partial Class frmMainMenu
         Me.AdquisiciónToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.DonaciónToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PréstamoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ToolStripMenuItem13 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem14 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem15 = New System.Windows.Forms.ToolStripMenuItem()
         Me.SMSToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SQLServerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ToolsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SalesReportToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ServiceBillingReportToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -88,7 +85,7 @@ Partial Class frmMainMenu
         '
         'MenuStrip2
         '
-        Me.MenuStrip2.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MasterEntryToolStripMenuItem, Me.ToolStripMenuItem2, Me.ToolStripMenuItem3, Me.ToolStripMenuItem4, Me.ToolStripMenuItem13, Me.ToolStripMenuItem14, Me.ToolStripMenuItem15, Me.ToolsToolStripMenuItem, Me.AboutToolStripMenuItem})
+        Me.MenuStrip2.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MasterEntryToolStripMenuItem, Me.ToolStripMenuItem2, Me.ToolStripMenuItem3, Me.ToolStripMenuItem4, Me.ToolStripMenuItem14, Me.ToolStripMenuItem15, Me.AboutToolStripMenuItem})
         Me.MenuStrip2.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip2.Name = "MenuStrip2"
         Me.MenuStrip2.Size = New System.Drawing.Size(1354, 26)
@@ -163,25 +160,20 @@ Partial Class frmMainMenu
         'AdquisiciónToolStripMenuItem
         '
         Me.AdquisiciónToolStripMenuItem.Name = "AdquisiciónToolStripMenuItem"
-        Me.AdquisiciónToolStripMenuItem.Size = New System.Drawing.Size(150, 22)
+        Me.AdquisiciónToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.AdquisiciónToolStripMenuItem.Text = "Adquisición"
         '
         'DonaciónToolStripMenuItem
         '
         Me.DonaciónToolStripMenuItem.Name = "DonaciónToolStripMenuItem"
-        Me.DonaciónToolStripMenuItem.Size = New System.Drawing.Size(150, 22)
+        Me.DonaciónToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.DonaciónToolStripMenuItem.Text = "Donación"
         '
         'PréstamoToolStripMenuItem
         '
         Me.PréstamoToolStripMenuItem.Name = "PréstamoToolStripMenuItem"
-        Me.PréstamoToolStripMenuItem.Size = New System.Drawing.Size(150, 22)
+        Me.PréstamoToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.PréstamoToolStripMenuItem.Text = "Préstamo"
-        '
-        'ToolStripMenuItem13
-        '
-        Me.ToolStripMenuItem13.Name = "ToolStripMenuItem13"
-        Me.ToolStripMenuItem13.Size = New System.Drawing.Size(12, 22)
         '
         'ToolStripMenuItem14
         '
@@ -192,26 +184,17 @@ Partial Class frmMainMenu
         '
         'ToolStripMenuItem15
         '
-        Me.ToolStripMenuItem15.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SMSToolStripMenuItem1, Me.SQLServerToolStripMenuItem})
+        Me.ToolStripMenuItem15.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SMSToolStripMenuItem1})
         Me.ToolStripMenuItem15.Font = New System.Drawing.Font("Palatino Linotype", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ToolStripMenuItem15.Name = "ToolStripMenuItem15"
-        Me.ToolStripMenuItem15.Size = New System.Drawing.Size(63, 22)
-        Me.ToolStripMenuItem15.Text = "Setting"
+        Me.ToolStripMenuItem15.Size = New System.Drawing.Size(78, 22)
+        Me.ToolStripMenuItem15.Text = "Opciones"
         '
         'SMSToolStripMenuItem1
         '
         Me.SMSToolStripMenuItem1.Name = "SMSToolStripMenuItem1"
-        Me.SMSToolStripMenuItem1.Size = New System.Drawing.Size(68, 22)
-        '
-        'SQLServerToolStripMenuItem
-        '
-        Me.SQLServerToolStripMenuItem.Name = "SQLServerToolStripMenuItem"
-        Me.SQLServerToolStripMenuItem.Size = New System.Drawing.Size(68, 22)
-        '
-        'ToolsToolStripMenuItem
-        '
-        Me.ToolsToolStripMenuItem.Name = "ToolsToolStripMenuItem"
-        Me.ToolsToolStripMenuItem.Size = New System.Drawing.Size(12, 22)
+        Me.SMSToolStripMenuItem1.Size = New System.Drawing.Size(200, 22)
+        Me.SMSToolStripMenuItem1.Text = "Cambiar Contraseña"
         '
         'AboutToolStripMenuItem
         '
@@ -396,7 +379,7 @@ Partial Class frmMainMenu
         'ToolStripStatusLabel3
         '
         Me.ToolStripStatusLabel3.Name = "ToolStripStatusLabel3"
-        Me.ToolStripStatusLabel3.Size = New System.Drawing.Size(922, 18)
+        Me.ToolStripStatusLabel3.Size = New System.Drawing.Size(953, 18)
         Me.ToolStripStatusLabel3.Spring = True
         '
         'lblDateTime
@@ -455,7 +438,6 @@ Partial Class frmMainMenu
     Friend WithEvents MenuStrip2 As System.Windows.Forms.MenuStrip
     Friend WithEvents MasterEntryToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents AboutToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ToolsToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents CalculatorToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents NotepadToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents WordpadToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
@@ -480,11 +462,9 @@ Partial Class frmMainMenu
     Friend WithEvents ToolStripMenuItem2 As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ToolStripMenuItem3 As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ToolStripMenuItem4 As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ToolStripMenuItem13 As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ToolStripMenuItem14 As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ToolStripMenuItem15 As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents SMSToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents SQLServerToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents SalesReportToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ServiceBillingReportToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents StockInAndStockOutReportToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
