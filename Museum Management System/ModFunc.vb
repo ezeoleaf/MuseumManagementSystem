@@ -32,7 +32,7 @@ Module ModFunc
     Sub LogFunc(ByVal st1 As String, ByVal st2 As String)
         con = New SqlConnection(cs)
         con.Open()
-        Dim cb As String = "insert into Logs(UserID,Date,Operation) VALUES (@d1,@d2,@d3)"
+        Dim cb As String = "insert into Logs(userid,fecha,operacion) VALUES (@d1,@d2,@d3)"
         cmd = New SqlCommand(cb)
         cmd.Connection = con
         cmd.Parameters.AddWithValue("@d1", st1)

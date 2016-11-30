@@ -4,12 +4,12 @@ Public Class frmLogin
 
     Private Sub OK_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles OK.Click
         If Len(Trim(UserID.Text)) = 0 Then
-            MessageBox.Show("Please enter user id", "", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+            MessageBox.Show("Ingrese el nombre de usuario", "", MessageBoxButtons.OK, MessageBoxIcon.Warning)
             UserID.Focus()
             Exit Sub
         End If
         If Len(Trim(Password.Text)) = 0 Then
-            MessageBox.Show("Please enter password", "", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+            MessageBox.Show("Ingrese una contraseña", "", MessageBoxButtons.OK, MessageBoxIcon.Warning)
             Password.Focus()
             Exit Sub
         End If
@@ -17,21 +17,19 @@ Public Class frmLogin
             con = New SqlConnection(cs)
             con.Open()
             cmd = con.CreateCommand()
-            cmd.CommandText = "SELECT RTRIM(UserID),RTRIM(Password) FROM Registration where UserID = @d1 and Password=@d2 and Active='Yes'"
+            cmd.CommandText = "SELECT id,username,pass,tipo FROM users where username = @d1 and pass=@d2 and activo=1"
             cmd.Parameters.AddWithValue("@d1", UserID.Text)
             cmd.Parameters.AddWithValue("@d2", Encrypt(Password.Text))
             rdr = cmd.ExecuteReader()
             If rdr.Read() Then
-                con = New SqlConnection(cs)
-                con.Open()
-                cmd = con.CreateCommand()
-                cmd.CommandText = "SELECT usertype FROM Registration where UserID=@d3 and Password=@d4"
-                cmd.Parameters.AddWithValue("@d3", UserID.Text)
-                cmd.Parameters.AddWithValue("@d4", Encrypt(Password.Text))
-                rdr = cmd.ExecuteReader()
-                If rdr.Read() Then
-                    UserType.Text = rdr.GetValue(0).ToString.Trim
+                If rdr.GetValue(3) = 1 Then
+                    UserType.Text = "Admin"
+                Else
+                    UserType.Text = "Empleado"
                 End If
+
+                Dim userIdVal As String = rdr.GetValue(0).ToString
+
                 If (rdr IsNot Nothing) Then
                     rdr.Close()
                 End If
@@ -42,31 +40,22 @@ Public Class frmLogin
                     frm.MasterEntryToolStripMenuItem.Enabled = True
                     frm.lblUser.Text = UserID.Text
                     frm.lblUserType.Text = UserType.Text
-                Dim st As String = "Successfully logged in"
-                LogFunc(UserID.Text, st)
-                Me.Hide()
-                    frm.Show()
-                End If
-                If UserType.Text = "Sales Person" Then
-                    frm.MasterEntryToolStripMenuItem.Enabled = False
-                    frm.lblUser.Text = UserID.Text
-                    frm.lblUserType.Text = UserType.Text
-                    Dim st As String = "Successfully logged in"
-                    LogFunc(UserID.Text, st)
+                    Dim st As String = "Ingreso exitoso"
+                    LogFunc(userIdVal, st)
                     Me.Hide()
                     frm.Show()
                 End If
-                If UserType.Text = "Inventory Manager" Then
+                If UserType.Text = "Empleado" Then
                     frm.MasterEntryToolStripMenuItem.Enabled = False
                     frm.lblUser.Text = UserID.Text
                     frm.lblUserType.Text = UserType.Text
-                    Dim st As String = "Successfully logged in"
-                    LogFunc(UserID.Text, st)
+                    Dim st As String = "Ingreso exitoso"
+                    LogFunc(userIdVal, st)
                     Me.Hide()
                     frm.Show()
                 End If
             Else
-                MsgBox("Login is Failed...Try again !", MsgBoxStyle.Critical, "Login Denied")
+                MsgBox("El ingreso falló. Intente nuevamente !", MsgBoxStyle.Critical, "Ingreso denegado")
                 UserID.Text = ""
                 Password.Text = ""
                 UserID.Focus()

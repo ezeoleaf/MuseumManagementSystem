@@ -95,3 +95,52 @@ C:\Users\efigueroa\Desktop\Sales and Inventory Management System\Museum Manageme
 C:\Users\efigueroa\Desktop\Sales and Inventory Management System\Museum Management System\obj\x86\Debug\Museum Management System.exe
 C:\Users\efigueroa\Desktop\Sales and Inventory Management System\Museum Management System\obj\x86\Debug\Museum Management System.xml
 C:\Users\efigueroa\Desktop\Sales and Inventory Management System\Museum Management System\obj\x86\Debug\Museum Management System.pdb
+C:\Users\Eze\Desktop\MuseumManagementSystem\Museum Management System\bin\Debug\Museum Management System.exe.config
+C:\Users\Eze\Desktop\MuseumManagementSystem\Museum Management System\obj\x86\Debug\Museum Management System.exe
+C:\Users\Eze\Desktop\MuseumManagementSystem\Museum Management System\obj\x86\Debug\Museum Management System.xml
+C:\Users\Eze\Desktop\MuseumManagementSystem\Museum Management System\obj\x86\Debug\Museum Management System.pdb
+C:\Users\Eze\Desktop\MuseumManagementSystem\Museum Management System\bin\Debug\Museum Management System.exe
+C:\Users\Eze\Desktop\MuseumManagementSystem\Museum Management System\bin\Debug\Museum Management System.pdb
+C:\Users\Eze\Desktop\MuseumManagementSystem\Museum Management System\bin\Debug\Museum Management System.xml
+C:\Users\Eze\Desktop\MuseumManagementSystem\Museum Management System\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Eze\Desktop\MuseumManagementSystem\Museum Management System\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Eze\Desktop\MuseumManagementSystem\Museum Management System\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Eze\Desktop\MuseumManagementSystem\Museum Management System\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Eze\Desktop\MuseumManagementSystem\Museum Management System\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Eze\Desktop\MuseumManagementSystem\Museum Management System\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Eze\Desktop\MuseumManagementSystem\Museum Management System\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Eze\Desktop\MuseumManagementSystem\Museum Management System\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Eze\Desktop\MuseumManagementSystem\Museum Management System\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Eze\Desktop\MuseumManagementSystem\Museum Management System\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Eze\Desktop\MuseumManagementSystem\Museum Management System\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Eze\Desktop\MuseumManagementSystem\Museum Management System\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Eze\Desktop\MuseumManagementSystem\Museum Management System\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Eze\Desktop\MuseumManagementSystem\Museum Management System\obj\x86\Debug\Museum Management System.vbprojResolveAssemblyReference.cache
+C:\Users\Eze\Desktop\MuseumManagementSystem\Museum Management System\obj\x86\Debug\Musem_Management_System.frmContactMe.resources
+C:\Users\Eze\Desktop\MuseumManagementSystem\Museum Management System\obj\x86\Debug\Musem_Management_System.frmLogin.resources
+C:\Users\Eze\Desktop\MuseumManagementSystem\Museum Management System\obj\x86\Debug\Musem_Management_System.frmStockStatus.resources
+C:\Users\Eze\Desktop\MuseumManagementSystem\Museum Management System\obj\x86\Debug\Musem_Management_System.Resources.resources
+C:\Users\Eze\Desktop\MuseumManagementSystem\Museum Management System\obj\x86\Debug\Musem_Management_System.frmSalesmanLedger.resources
+C:\Users\Eze\Desktop\MuseumManagementSystem\Museum Management System\obj\x86\Debug\Musem_Management_System.frmCustomerLedger.resources
+C:\Users\Eze\Desktop\MuseumManagementSystem\Museum Management System\obj\x86\Debug\Musem_Management_System.frmTrialBalanceAccounting.resources
+C:\Users\Eze\Desktop\MuseumManagementSystem\Museum Management System\obj\x86\Debug\Musem_Management_System.frmPurchaseDaybook.resources
+C:\Users\Eze\Desktop\MuseumManagementSystem\Museum Management System\obj\x86\Debug\Musem_Management_System.frmProfitAndLossReport.resources
+C:\Users\Eze\Desktop\MuseumManagementSystem\Museum Management System\obj\x86\Debug\Musem_Management_System.frmPurchaseReport.resources
+C:\Users\Eze\Desktop\MuseumManagementSystem\Museum Management System\obj\x86\Debug\Musem_Management_System.frmVouchersEntry.resources
+C:\Users\Eze\Desktop\MuseumManagementSystem\Museum Management System\obj\x86\Debug\Musem_Management_System.frmVoucherReport.resources
+C:\Users\Eze\Desktop\MuseumManagementSystem\Museum Management System\obj\x86\Debug\Musem_Management_System.frmSMSSetting.resources
+C:\Users\Eze\Desktop\MuseumManagementSystem\Museum Management System\obj\x86\Debug\Musem_Management_System.frmSplash.resources
+C:\Users\Eze\Desktop\MuseumManagementSystem\Museum Management System\obj\x86\Debug\Musem_Management_System.frmServices.resources
+C:\Users\Eze\Desktop\MuseumManagementSystem\Museum Management System\obj\x86\Debug\Musem_Management_System.frmLogs.resources
+C:\Users\Eze\Desktop\MuseumManagementSystem\Museum Management System\obj\x86\Debug\Musem_Management_System.frmCustomer.resources
+C:\Users\Eze\Desktop\MuseumManagementSystem\Museum Management System\obj\x86\Debug\Musem_Management_System.frmCompany.resources
+C:\Users\Eze\Desktop\MuseumManagementSystem\Museum Management System\obj\x86\Debug\Musem_Management_System.frmSales.resources
+C:\Users\Eze\Desktop\MuseumManagementSystem\Museum Management System\obj\x86\Debug\Musem_Management_System.frmSalesReport.resources
+C:\Users\Eze\Desktop\MuseumManagementSystem\Museum Management System\obj\x86\Debug\Musem_Management_System.frmReport.resources
+C:\Users\Eze\Desktop\MuseumManagementSystem\Museum Management System\obj\x86\Debug\Musem_Management_System.frmPurchaseList.resources
+C:\Users\Eze\Desktop\MuseumManagementSystem\Museum Management System\obj\x86\Debug\Musem_Management_System.frmProductEntry.resources
+C:\Users\Eze\Desktop\MuseumManagementSystem\Museum Management System\obj\x86\Debug\Musem_Management_System.frmAbout.resources
+C:\Users\Eze\Desktop\MuseumManagementSystem\Museum Management System\obj\x86\Debug\Musem_Management_System.frmMainMenu.resources
+C:\Users\Eze\Desktop\MuseumManagementSystem\Museum Management System\obj\x86\Debug\Musem_Management_System.frmRegistration.resources
+C:\Users\Eze\Desktop\MuseumManagementSystem\Museum Management System\obj\x86\Debug\Musem_Management_System.frmSupplier.resources
+C:\Users\Eze\Desktop\MuseumManagementSystem\Museum Management System\obj\x86\Debug\Museum Management System.vbproj.GenerateResource.Cache

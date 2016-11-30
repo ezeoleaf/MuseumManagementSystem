@@ -8,7 +8,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{0FBE5890-9982-4357-AD91-054D44D762CE}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>Musem_Management_System.frmMainMenu</StartupObject>
+    <StartupObject>Musem_Management_System.frmLogin</StartupObject>
     <RootNamespace>Musem_Management_System</RootNamespace>
     <AssemblyName>Museum Management System</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -111,6 +111,12 @@
       <DependentUpon>frmContactMe.vb</DependentUpon>
     </Compile>
     <Compile Include="frmContactMe.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmObra.Designer.vb">
+      <DependentUpon>frmObra.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmObra.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmLogin.Designer.vb">
@@ -325,6 +331,9 @@
     <EmbeddedResource Include="frmContactMe.resx">
       <DependentUpon>frmContactMe.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmObra.resx">
+      <DependentUpon>frmObra.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.vb</DependentUpon>
     </EmbeddedResource>
@@ -498,6 +507,7 @@
     <Content Include="Resources\imagen9.jpg" />
     <Content Include="Resources\login1.png" />
     <None Include="Resources\Met_logo.png" />
+    <None Include="Resources\noImg.jpg" />
     <Content Include="SnapShot.jpg" />
     <None Include="Resources\task-manager1.png" />
     <None Include="Resources\MS-Word-2-icon1.png" />
